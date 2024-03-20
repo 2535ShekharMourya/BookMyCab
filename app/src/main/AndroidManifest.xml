@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/transport"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.BookMyCar"
+        tools:targetApi="31">
+        <activity
+            android:name=".CustomerMapActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ExpandedHistoryActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HistoryActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ServiceActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Profile"
+            android:exported="false" />
+        <activity
+            android:name=".LoginAndSignup.OTPVarification"
+            android:exported="false" />
+        <activity
+            android:name=".DriverMapActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SplashScreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".NoInternet"
+            android:exported="false" />
+        <activity
+            android:name=".LoginAndSignup.ForgotPassword"
+            android:exported="false" />
+        <activity
+            android:name=".LoginAndSignup.PhoneLogin"
+            android:exported="false" />
+        <activity
+            android:name=".LoginAndSignup.LoginByEmail"
+            android:exported="false" />
+        <activity
+            android:name=".LoginAndSignup.SignUp"
+            android:exported="false" />
+        <activity
+            android:name=".LoginAndSignup.Login"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+    </application>
+
+</manifest>
